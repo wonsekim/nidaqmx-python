@@ -3,7 +3,8 @@
 
 # In[27]:
 
-
+import sys
+sys.path.append('../')
 import nidaqmx
 from nidaqmx.constants import (
     LineGrouping)
